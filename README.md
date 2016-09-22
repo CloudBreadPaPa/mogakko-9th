@@ -2,6 +2,8 @@
 ## C#, node.js + (Python) 을 이용한 Azure Machine Learning API 데모 코드
 
 이 Repository는 모각코x모두 아홉번째 모임 발표에 사용된 demo 코드.
+발표에 대한 자료와 내용은 모두 모각코 facebook 모임에서 보실 수 있습니다. 
+https://www.facebook.com/events/527785940755737/
 
 ### C#을 이용한 Visual Studio 실행 절차
 mogakko-9th\cs\kaist_ml 폴더에서 프로젝트 실행
