@@ -8,12 +8,14 @@ https://www.facebook.com/events/527785940755737/
 ### C#을 이용한 Visual Studio 실행 절차
 mogakko-9th\cs\kaist_ml 폴더에서 프로젝트 실행
 코드의 API KKey를 자신의 Azure ML API Key로 수정
+
 	```
 	const string apiKey = "APIKey"; // Replace this with the API key for the web service
     ```
 
 ### node.js로 ML API를 호출하는 절차
 app.js 파일의 API Key를 자신의 API Key로 수정
+
 	```
     var api_key = 'APIKey'	// 자신의 키로 수정
     ```
@@ -80,6 +82,7 @@ except urllib2.HTTPError, error:
 ```
 api_key = 'abc123' # Replace this with the API key for the web service
 ```
+
 이부분을 변경하고 수행
 
 문서의 끝
