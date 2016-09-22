@@ -9,16 +9,16 @@ https://www.facebook.com/events/527785940755737/
 mogakko-9th\cs\kaist_ml 폴더에서 프로젝트 실행
 코드의 API KKey를 자신의 Azure ML API Key로 수정
 
-	```
-	const string apiKey = "APIKey"; // Replace this with the API key for the web service
-    ```
+```
+const string apiKey = "APIKey"; // Replace this with the API key for the web service
+```
 
 ### node.js로 ML API를 호출하는 절차
 app.js 파일의 API Key를 자신의 API Key로 수정
 
-	```
-    var api_key = 'APIKey'	// 자신의 키로 수정
-    ```
+```
+var api_key = 'APIKey'	// 자신의 키로 수정
+```
 
 node.js로 Azure ML을 call 예제 링크 :
 https://blogs.msdn.microsoft.com/bigdatasupport/2016/02/18/how-to-call-a-azure-machine-learning-web-service-from-nodejs/
