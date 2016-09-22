@@ -7,14 +7,13 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kaist_ml
+namespace mokakko_9th_dw_demo
 {
     public class StringTable
     {
         public string[] ColumnNames { get; set; }
         public string[,] Values { get; set; }
     }
-
 
     class Program
     {
