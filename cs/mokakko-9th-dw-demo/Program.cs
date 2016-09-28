@@ -44,10 +44,10 @@ namespace mokakko_9th_dw_demo
                     {
                     }
                 };
-                const string apiKey = "APIKey"; // Replace this with the API key for the web service
+                const string apiKey = "API Key"; // Replace this with the API key for the web service
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
 
-                client.BaseAddress = new Uri("https://asiasoutheast.services.azureml.net/workspaces/46d0e60b05b34558827abd41f11d204f/services/f9d7f2b4fd7c4f3baf966ad75f6ae197/execute?api-version=2.0&details=true");
+                client.BaseAddress = new Uri("Azure ML이 제공하는 API URL");
 
                 // WARNING: The 'await' statement below can result in a deadlock if you are calling this code from the UI thread of an ASP.Net application.
                 // One way to address this would be to call ConfigureAwait(false) so that the execution does not attempt to resume on the original context.

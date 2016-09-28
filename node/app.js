@@ -10,10 +10,10 @@ var fs = require('fs');
 function getPred(data) {
 console.log('===getPred()===');
 var dataString = JSON.stringify(data)
-var host = 'asiasoutheast.services.azureml.net'
-var path = '/workspaces/46d0e60b05b34558827abd41f11d204f/services/f9d7f2b4fd7c4f3baf966ad75f6ae197/execute?api-version=2.0&details=true'
+var host = 'asiasoutheast.services.azureml.net'	//제공하는 HOST 경로
+var path = 'HOST 이후 URL Path 정보'
 var method = 'POST'
-var api_key = 'APIKey'
+var api_key = 'API Key 정보'
 var headers = {'Content-Type':'application/json', 'Authorization':'Bearer ' + api_key};
 var options = {
 host: host,

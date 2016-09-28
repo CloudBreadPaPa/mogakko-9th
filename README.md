@@ -10,14 +10,23 @@ mogakko-9th\cs\kaist_ml 폴더에서 프로젝트 실행
 코드의 API KKey를 자신의 Azure ML API Key로 수정
 
 ```
-const string apiKey = "APIKey"; // Replace this with the API key for the web service
+...
+const string apiKey = "API Key"; // Azure ML이 제공하는 API Key
+...
+client.BaseAddress = new Uri("Azure ML이 제공하는 API URL");
+...
 ```
 
 ### node.js로 ML API를 호출하는 절차
 app.js 파일의 API Key를 자신의 API Key로 수정
 
 ```
-var api_key = 'APIKey'	// 자신의 키로 수정
+...
+var host = 'asiasoutheast.services.azureml.net'	//제공하는 HOST 경로
+var path = 'HOST 이후 URL Path 정보'
+...
+var api_key = 'API Key 정보'
+...
 ```
 
 node.js로 Azure ML을 call 예제 링크 :
@@ -52,8 +61,8 @@ data =  {
 
 body = str.encode(json.dumps(data))
 
-url = 'https://asiasoutheast.services.azureml.net/workspaces/46d0e60b05b34558827abd41f11d204f/services/f9d7f2b4fd7c4f3baf966ad75f6ae197/execute?api-version=2.0&details=true'
-api_key = 'abc123' # Replace this with the API key for the web service
+url = 'AzureML이 제공하는 URL'
+api_key = 'AzureML이 제공하는 APIKey' # Replace this with the API key for the web service
 headers = {'Content-Type':'application/json', 'Authorization':('Bearer '+ api_key)}
 
 req = urllib2.Request(url, body, headers) 
@@ -80,7 +89,10 @@ except urllib2.HTTPError, error:
 마찬가지로, API Key 변수를 자신의 Key로 변경하고 수행 해야 함.
 
 ```
-api_key = 'abc123' # Replace this with the API key for the web service
+...
+url = 'AzureML이 제공하는 URL'
+api_key = 'AzureML이 제공하는 APIKey' # Replace this with the API key for the web service
+...
 ```
 
 이부분을 변경하고 수행
