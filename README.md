@@ -37,7 +37,7 @@ node reqeust package를 이용하면 더 쉽게 node에서 Azure ML을 호출 �
 
 ### Python을 이용한 Azure ML 호출 코드
 Python을 호출하기 위한 데모
-기본 code는 Python 2.7.x 기준. 아래 코드 데모는 아마도 한글로 인해 unicode 처리가 필요할 수 있음.
+기본 code는 Python 2.7.x 기준. 아래 코드 데모는 아마도 한글로 인해 unicode 처리가 필요함.
 
 ```
 import urllib2
