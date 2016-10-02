@@ -6,7 +6,7 @@
 https://www.facebook.com/events/527785940755737/
 
 ### C#을 이용한 Visual Studio 실행 절차
-mogakko-9th\cs\kaist_ml 폴더에서 프로젝트 실행
+mogakko-9th\cs\mokakko-9th-dw-demo 폴더에서 프로젝트 실행
 코드의 API KKey를 자신의 Azure ML API Key로 수정
 
 ```
